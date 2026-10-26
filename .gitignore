@@ -1,0 +1,5 @@
+# Temporary scripts
+download_screens.py
+build_pages.py
+*.pyc
+__pycache__/

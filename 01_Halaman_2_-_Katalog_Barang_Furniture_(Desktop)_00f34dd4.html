@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary-fixed-dim":"#eabda3","error-container":"#ffdad6","on-background":"#27180d","on-error-container":"#93000a","surface-container":"#ffeadc","primary-container":"#4a2e1b","outline-variant":"#d4c3bb","secondary-fixed-dim":"#ecbe95","surface-dim":"#f1d5c2","on-primary":"#ffffff","secondary":"#7a5736","on-surface":"#27180d","surface-container-highest":"#faddca","surface":"#fff8f5","inverse-primary":"#eabda3","error":"#ba1a1a","secondary-container":"#fecea4","inverse-on-surface":"#ffede3","surface-container-low":"#fff1e9","on-secondary-fixed":"#2d1600","surface-variant":"#faddca","on-secondary":"#ffffff","inverse-surface":"#3e2d20","on-primary-fixed":"#2d1605","tertiary-container":"#4e2c17","tertiary":"#351705","outline":"#82746d","on-secondary-container":"#795635","on-primary-container":"#bd957c","tertiary-fixed":"#ffdbc9","surface-container-high":"#ffe3d0","on-surface-variant":"#50443e","secondary-fixed":"#ffdcbf","on-primary-fixed-variant":"#5f402c","on-secondary-fixed-variant":"#604020","on-tertiary-fixed":"#301403","on-error":"#ffffff","surface-container-lowest":"#ffffff","tertiary-fixed-dim":"#f1bb9d","surface-bright":"#fff8f5","primary":"#311908","on-tertiary-fixed-variant":"#633e27","on-tertiary-container":"#c49277","primary-fixed":"#ffdbc7","on-tertiary":"#ffffff","background":"#fff8f5","surface-tint":"#795741"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-lg":"1.5rem","margin-desktop":"2.5rem","space-xl":"2.25rem","space-md":"1rem","gutter-mobile":"0.75rem",gutter:"1rem",margin:"1.25rem","space-sm":"0.5rem","space-xs":"0.25rem"},fontFamily:{"label-lg":["Plus Jakarta Sans"],"headline-md":["Literata"],"label-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-lg":["Literata"],"display-lg-mobile":["Literata"],"headline-lg":["Literata"],"body-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-sm":["Literata"]},fontSize:{"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.02em",fontWeight:"600"}],"headline-md":["22px",{lineHeight:"30px",letterSpacing:"0em",fontWeight:"500"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.03em",fontWeight:"600"}],"label-sm":["10px",{lineHeight:"14px",letterSpacing:"0.06em",fontWeight:"700"}],"display-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"600"}],"display-lg-mobile":["30px",{lineHeight:"38px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-lg":["26px",{lineHeight:"34px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-sm":["12px",{lineHeight:"18px",letterSpacing:"0.01em",fontWeight:"400"}],"body-lg":["16px",{lineHeight:"26px",letterSpacing:"0em",fontWeight:"400"}],"body-md":["14px",{lineHeight:"22px",letterSpacing:"0em",fontWeight:"400"}],"headline-sm":["18px",{lineHeight:"26px",letterSpacing:"0em",fontWeight:"500"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(44,29,17,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-desktop flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md"><div class="w-11 h-11 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-[0_2px_8px_-2px_rgba(44,29,17,0.08)]"><span class="material-symbols-outlined text-[24px]">carpenter</span></div><div class="flex flex-col"><span class="font-headline-md text-headline-md font-semibold tracking-tight text-primary leading-none">KayuKarya</span><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary mt-0.5">Artisan Furniture</span></div></div><nav class="hidden xl:flex items-center gap-space-md" data-active-classes="text-primary font-bold bg-surface-container px-3 py-1.5 rounded-lg"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors px-3 py-1.5 rounded-lg" data-path="beranda-&amp;-profil-toko" href="#">Beranda</a><a aria-current="page" class="transition-colors text-primary font-bold bg-surface-container px-3 py-1.5 rounded-lg" data-path="katalog-barang-furniture" href="#">Katalog Produk</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors px-3 py-1.5 rounded-lg" data-path="paket-furniture-hemat" href="#">Paket Hemat</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors px-3 py-1.5 rounded-lg" data-path="detail-transaksi-&amp;-checkout" href="#">Cara Pesan</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors px-3 py-1.5 rounded-lg" data-path="ucapan-terima-kasih-&amp;-kontak-toko" href="#">Hubungi Kami</a></nav><div class="flex items-center gap-space-md flex-1 max-w-xs justify-end"><div class="relative w-full max-w-[200px] hidden md:block"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[18px]">search</span><input class="w-full bg-surface-container-lowest text-on-surface placeholder:text-outline text-body-sm font-body-sm pl-9 pr-3 py-1.5 rounded-full shadow-[0_1px_3px_0_rgba(44,29,17,0.03)] focus:outline-none focus:ring-1 focus:ring-secondary transition-all" placeholder="Cari perabot kayu..." type="text"/></div><a class="relative p-2 rounded-full hover:bg-surface-container-high text-on-surface transition-colors flex items-center justify-center" data-path="detail-transaksi-&amp;-checkout" href="#"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute top-1 right-1 w-4 h-4 rounded-full bg-secondary text-on-secondary font-label-sm text-[10px] flex items-center justify-center leading-none">3</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Utility & Breadcrumb Bar -->
+<section class="w-full bg-surface-container-low px-margin-desktop py-space-sm shadow-sm">
+<div class="max-w-7xl mx-auto flex items-center justify-between text-on-surface-variant font-label-md text-label-md">
+<nav class="flex items-center gap-space-xs">
+<a class="hover:text-primary transition-colors flex items-center gap-1" data-path="beranda-&amp;-profil-toko" href="#">
+<span class="material-symbols-outlined text-[16px]">home</span>
+<span>Beranda</span>
+</a>
+<span class="material-symbols-outlined text-[14px] text-outline">chevron_right</span>
+<span class="text-on-surface font-bold">Katalog Furniture</span>
+<span class="material-symbols-outlined text-[14px] text-outline">chevron_right</span>
+<span class="text-secondary">Koleksi Furniture Unggulan</span>
+</nav>
+<div class="hidden lg:flex items-center gap-space-md text-secondary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">local_shipping</span> Garansi Pengiriman Aman Seluruh Jawa &amp; Bali</span>
+<span class="text-outline-variant">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">verified</span> 100% Kayu Solid Bersertifikasi</span>
+</div>
+</div>
+</section>
+<!-- Hero Header & Global Category Spotlight -->
+<section class="w-full px-margin-desktop pt-space-lg pb-space-md">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-md">
+<div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider mb-space-xs">
+<span class="material-symbols-outlined text-[14px]">eco</span> Kurasi Studio Jepara 2025
+        </div>
+<h1 class="font-display-lg text-display-lg text-primary tracking-tight">Koleksi Furniture Unggulan</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 max-w-2xl">
+          Eksplorasi mahakarya mebel kayu jati perhutani, sungkai grade A, serta anyaman rotan alami. Dibuat presisi dengan sambungan pasak tradisional bertransformasi minimalis modern.
+        </p>
+</div>
+<!-- Live Quick Stats -->
+<div class="flex items-center gap-space-md bg-surface-container px-space-md py-space-sm rounded-xl self-start md:self-auto">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Tersedia</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">48 Model</span>
+</div>
+<div class="w-px h-8 bg-surface-dim"></div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Finishing</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Natural Matte</span>
+</div>
+<div class="w-px h-8 bg-surface-dim"></div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Rating Toko</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold flex items-center gap-0.5">
+            4.9 <span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+</span>
+</div>
+</div>
+</div>
+<!-- Wide Search, Quick Tags & Sorting Toolbar -->
+<div class="max-w-7xl mx-auto bg-surface-container-lowest p-space-md rounded-2xl shadow-md flex flex-col gap-space-md mt-space-sm">
+<div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-space-md">
+<!-- Broad Search Input -->
+<div class="relative flex-1">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline text-[22px]">search</span>
+<input class="w-full bg-surface-container-low text-on-surface placeholder:text-outline font-body-md text-body-md pl-12 pr-28 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary/40 shadow-inner transition-all" placeholder="Cari perabot: 'kursi santai jati', 'meja kerja industrial', 'credenza sungkai'..." type="text"/>
+<button class="absolute right-2 top-1/2 -translate-y-1/2 bg-primary-container text-on-primary font-label-md text-label-md px-4 py-2 rounded-lg hover:bg-primary transition-colors flex items-center gap-1 shadow-sm">
+<span>Cari</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<!-- Sorting & Display Options -->
+<div class="flex items-center gap-space-sm self-end lg:self-auto shrink-0">
+<label class="font-label-md text-label-md text-on-surface-variant flex items-center gap-1" for="sortDropdown">
+<span class="material-symbols-outlined text-[18px]">sort</span> Urutkan:
+          </label>
+<div class="relative">
+<select class="appearance-none bg-surface-container font-label-md text-label-md text-primary font-semibold pl-3.5 pr-9 py-2.5 rounded-xl cursor-pointer focus:outline-none focus:ring-2 focus:ring-secondary/40" id="sortDropdown">
+<option selected="">Paling Populer &amp; Terlaris</option>
+<option>Harga Termurah</option>
+<option>Harga Tertinggi</option>
+<option>Produk Terbaru 2025</option>
+<option>Rating Tertinggi Pelanggan</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 text-primary pointer-events-none text-[18px]">expand_more</span>
+</div>
+<div class="hidden sm:flex items-center bg-surface-container-low p-1 rounded-xl gap-1">
+<button class="p-1.5 rounded-lg bg-surface-container text-primary shadow-sm" title="Tampilan Grid 3-4">
+<span class="material-symbols-outlined text-[20px]">grid_view</span>
+</button>
+<button class="p-1.5 rounded-lg text-outline hover:text-on-surface transition-colors" title="Tampilan Daftar">
+<span class="material-symbols-outlined text-[20px]">view_list</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Quick Filter Pills -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1 text-label-sm font-label-sm scrollbar-none">
+<span class="text-outline uppercase text-[11px] font-bold mr-1 shrink-0">Filter Cepat:</span>
+<button class="shrink-0 px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-bold shadow-sm flex items-center gap-1.5">
+<span>Semua Koleksi</span>
+<span class="w-1.5 h-1.5 rounded-full bg-surface-bright"></span>
+</button>
+<button class="shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-colors flex items-center gap-1.5">
+<span>Stok Siap Kirim (Jepara)</span>
+<span class="text-secondary font-bold">24</span>
+</button>
+<button class="shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-colors flex items-center gap-1.5">
+<span>Kayu Jati Solid 100%</span>
+</button>
+<button class="shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-colors flex items-center gap-1.5">
+<span>Kombinasi Rotan Alami</span>
+</button>
+<button class="shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-colors flex items-center gap-1.5">
+<span>Diskon Promo Spesial</span>
+<span class="material-symbols-outlined text-[14px] text-error">local_fire_department</span>
+</button>
+<button class="shrink-0 px-3 py-1.5 rounded-full bg-surface-dim text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1 ml-auto">
+<span class="material-symbols-outlined text-[14px]">restart_alt</span>
+<span>Reset Filter</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Main Content Layout: Sidebar Filter + Catalog Responsive Grid -->
+<section class="w-full px-margin-desktop py-space-md">
+<div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-space-lg items-start">
+<!-- Sticky Sidebar Filter (Desktop) -->
+<aside class="w-full lg:w-72 shrink-0 bg-surface-container-lowest p-space-md rounded-2xl shadow-sm flex flex-col gap-space-lg sticky top-24">
+<div class="flex items-center justify-between pb-space-sm bg-surface-container-low -mx-space-md -mt-space-md p-space-md rounded-t-2xl">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">tune</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-primary">Filter Katalog</span>
+</div>
+<button class="font-label-sm text-label-sm text-secondary hover:underline">Hapus Semua</button>
+</div>
+<!-- Filter 1: Kategori Produk -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between font-label-lg text-label-lg text-primary">
+<span>Kategori Ruang</span>
+<span class="material-symbols-outlined text-[18px] text-outline">expand_less</span>
+</div>
+<div class="flex flex-col gap-1.5 font-body-sm text-body-sm text-on-surface-variant">
+<label class="flex items-center justify-between p-2 rounded-lg bg-surface-container text-primary font-semibold cursor-pointer">
+<span class="flex items-center gap-2">
+<input checked="" class="accent-secondary w-4 h-4 cursor-pointer" name="kategori" type="radio"/>
+<span>Semua Kategori</span>
+</span>
+<span class="text-label-sm text-secondary font-bold">48</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer">
+<span class="flex items-center gap-2">
+<input class="accent-secondary w-4 h-4 cursor-pointer" name="kategori" type="radio"/>
+<span>Kursi &amp; Lounge</span>
+</span>
+<span class="text-label-sm text-outline">18</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer">
+<span class="flex items-center gap-2">
+<input class="accent-secondary w-4 h-4 cursor-pointer" name="kategori" type="radio"/>
+<span>Meja Makan &amp; Kerja</span>
+</span>
+<span class="text-label-sm text-outline">14</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer">
+<span class="flex items-center gap-2">
+<input class="accent-secondary w-4 h-4 cursor-pointer" name="kategori" type="radio"/>
+<span>Lemari &amp; Rak Buku</span>
+</span>
+<span class="text-label-sm text-outline">9</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer">
+<span class="flex items-center gap-2">
+<input class="accent-secondary w-4 h-4 cursor-pointer" name="kategori" type="radio"/>
+<span>Tempat Tidur Solid</span>
+</span>
+<span class="text-label-sm text-outline">7</span>
+</label>
+</div>
+</div>
+<div class="w-full h-px bg-surface-dim"></div>
+<!-- Filter 2: Material Kayu & Anyaman -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between font-label-lg text-label-lg text-primary">
+<span>Material Utama</span>
+<span class="material-symbols-outlined text-[18px] text-outline">expand_less</span>
+</div>
+<div class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<label class="flex items-center gap-2 cursor-pointer hover:text-primary">
+<input checked="" class="rounded accent-primary w-4 h-4" type="checkbox"/>
+<span>Kayu Jati Solid (Teak)</span>
+<span class="ml-auto text-label-sm text-outline">(32)</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer hover:text-primary">
+<input checked="" class="rounded accent-primary w-4 h-4" type="checkbox"/>
+<span>Rotan Alami Lombok</span>
+<span class="ml-auto text-label-sm text-outline">(16)</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer hover:text-primary">
+<input class="rounded accent-primary w-4 h-4" type="checkbox"/>
+<span>Kayu Mahoni Oven</span>
+<span class="ml-auto text-label-sm text-outline">(12)</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer hover:text-primary">
+<input class="rounded accent-primary w-4 h-4" type="checkbox"/>
+<span>Rangka Besi Hitam Anti-Karat</span>
+<span class="ml-auto text-label-sm text-outline">(8)</span>
+</label>
+</div>
+</div>
+<div class="w-full h-px bg-surface-dim"></div>
+<!-- Filter 3: Rentang Harga (Price Range Slider & Inputs) -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between font-label-lg text-label-lg text-primary">
+<span>Rentang Harga</span>
+<span class="text-label-sm text-secondary font-semibold">IDR (Rupiah)</span>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div class="bg-surface-container-low p-2 rounded-xl">
+<span class="font-label-sm text-label-sm text-outline block">Min</span>
+<span class="font-label-md text-label-md text-primary font-bold">Rp 400.000</span>
+</div>
+<div class="bg-surface-container-low p-2 rounded-xl">
+<span class="font-label-sm text-label-sm text-outline block">Maks</span>
+<span class="font-label-md text-label-md text-primary font-bold">Rp 3.500.000</span>
+</div>
+</div>
+<!-- Decorative Dual Slider Component -->
+<div class="relative pt-2 pb-1">
+<div class="h-2 bg-surface-dim rounded-full w-full relative">
+<div class="absolute left-1/12 right-2/6 h-full bg-secondary rounded-full"></div>
+<div class="absolute left-1/12 top-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-primary shadow cursor-pointer"></div>
+<div class="absolute right-2/6 top-1/2 -translate-y-1/2 translate-x-1/2 w-4 h-4 rounded-full bg-primary shadow cursor-pointer"></div>
+</div>
+</div>
+<div class="flex justify-between text-[11px] font-label-sm text-outline">
+<span>Rp 300rb</span>
+<span>Rp 5jt+</span>
+</div>
+</div>
+<div class="w-full h-px bg-surface-dim"></div>
+<!-- Filter 4: Rating Bintang -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between font-label-lg text-label-lg text-primary">
+<span>Rating Pengrajin</span>
+</div>
+<div class="flex flex-col gap-1.5 font-body-sm text-body-sm">
+<label class="flex items-center justify-between p-1.5 rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="flex items-center gap-1.5">
+<input checked="" class="rounded accent-secondary w-4 h-4" type="checkbox"/>
+<span class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</span>
+<span class="text-on-surface font-medium text-label-md">5.0 Sempurna</span>
+</span>
+<span class="text-outline text-label-sm">22</span>
+</label>
+<label class="flex items-center justify-between p-1.5 rounded-lg hover:bg-surface-container-low cursor-pointer">
+<span class="flex items-center gap-1.5">
+<input checked="" class="rounded accent-secondary w-4 h-4" type="checkbox"/>
+<span class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+</span>
+<span class="text-on-surface font-medium text-label-md">4.0 ke atas</span>
+</span>
+<span class="text-outline text-label-sm">19</span>
+</label>
+</div>
+</div>
+<div class="w-full h-px bg-surface-dim"></div>
+<!-- Filter 5: Ketersediaan & Garansi -->
+<div class="flex flex-col gap-2">
+<label class="flex items-center justify-between cursor-pointer p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">inventory_2</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary">Stok Ready Siap Kirim</span>
+<span class="font-label-sm text-label-sm text-outline">Tanpa masa tunggu PO</span>
+</div>
+</div>
+<input checked="" class="accent-secondary w-5 h-5 rounded cursor-pointer" type="checkbox"/>
+</label>
+<label class="flex items-center justify-between cursor-pointer p-2 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">handshake</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary">Bisa Custom Dimensi</span>
+<span class="font-label-sm text-label-sm text-outline">Tukang kayu personal</span>
+</div>
+</div>
+<input class="accent-secondary w-5 h-5 rounded cursor-pointer" type="checkbox"/>
+</label>
+</div>
+<!-- Artisan Guarantee Mini Box -->
+<div class="bg-primary-container text-on-primary p-space-md rounded-xl flex flex-col gap-2 shadow-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px]">verified_user</span>
+<span class="font-headline-sm text-headline-sm text-primary-fixed">Jaminan Kayu Tua</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
+            Kayu melalui proses pengeringan kiln-dried MC &lt; 12% untuk ketahanan puluhan tahun terhadap rayap dan cuaca tropis.
+          </p>
+</div>
+</aside>
+<!-- Main Catalog Grid Area -->
+<main class="flex-1 w-full flex flex-col gap-space-lg">
+<!-- Header Info Bar -->
+<div class="flex items-center justify-between px-space-xs">
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Menampilkan <span class="font-bold text-primary">6 dari 48</span> mebel kayu pilihan kurator
+          </p>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-secondary bg-surface-container px-3 py-1.5 rounded-full">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+<span>Semua pesanan dipacking peti kayu aman gratis</span>
+</div>
+</div>
+<!-- Responsive Products Grid (3 columns on Desktop, 4 columns on wide screens) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-space-lg">
+<!-- PRODUCT 1: Kursi Santai Jati Jepara -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-sm shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="An artisanal hand-crafted wooden lounge chair made from solid Jepara teak with curved ergonomic armrests, resting peacefully in a minimalist sunlit Indonesian architectural studio with warm stone walls, soft shadows, warm natural wood aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0Yk3NAbhWJ29l5a2h1BWkJJ-8JOTJQgz1UUe9UDSQOKxqxjD5IDtC79-RkNMX_tGCh6ew6K9nGJiPsjql_vHuRSzTjyivhdw84eedEl0Ixmd8EJ-HeLjreU-wXbsRNNiMv4gLahoJBlt284i3lUNhaKffqEXEM-85lrSL-1B8c8-QtfLcFcZHvZab9dAs-nRmJ2TdpP1-uLAp4W0JOF4hkYzWexzwsmSsVjHibEg_Qa0YUMq6C1pP"/>
+<span class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider flex items-center gap-1 shadow-sm font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Ready Stock
+              </span>
+<button class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/90 backdrop-blur-md text-primary hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Wishlist">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 bg-surface/85 backdrop-blur-md p-2 rounded-lg flex items-center justify-between font-label-sm text-label-sm text-on-surface">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-secondary">straighten</span> 72 x 68 x 78 cm</span>
+<span class="text-secondary font-bold">Kayu Jati Solid</span>
+</div>
+</div>
+<div class="px-space-xs flex flex-col flex-1">
+<div class="flex items-center gap-1 text-secondary mb-1">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold ml-1">4.9</span>
+<span class="font-body-sm text-body-sm text-outline">(128 ulasan)</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-semibold group-hover:text-secondary transition-colors">
+                Kursi Santai Jati Jepara
+              </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1 mb-space-sm">
+                Kayu Jati TPK Perhutani oven kering dengan sandaran punggung berkontur ergonomis dan bantalan linen alami.
+              </p>
+<div class="mt-auto pt-space-xs flex items-baseline gap-2 mb-space-md">
+<span class="font-headline-md text-headline-md font-bold text-primary">Rp 750.000</span>
+<span class="font-body-sm text-body-sm text-outline line-through">Rp 950.000</span>
+<span class="text-label-sm text-label-sm font-bold text-error bg-error-container/60 px-1.5 py-0.5 rounded ml-auto">-21%</span>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-5 gap-2">
+<button class="col-span-3 h-[46px] rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors flex items-center justify-center gap-1.5 shadow-sm active:scale-95">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Keranjang</span>
+</button>
+<a class="col-span-2 h-[46px] rounded-xl bg-surface-container-high text-primary hover:bg-surface-container-highest font-label-md text-label-md font-semibold transition-colors flex items-center justify-center text-center px-1" data-path="paket-furniture-hemat" href="#" title="Beli Paket Ruang Lebih Hemat">
+                  Paket Hemat
+                </a>
+</div>
+</div>
+</article>
+<!-- PRODUCT 2: Meja Kopi Minimalis Rattan -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-sm shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A round organic modern coffee table featuring a teak wood rim, natural wicker rattan woven shelf beneath, and clear tempered glass top, set in an airy serene warm cream interior with ceramic pottery and dry botanical florals." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzUUMCBEICJh6oxXgGse5smPillWLt-DR4Ezrw6ABnjHGm600mt4ITmqAMkd5fJZYvqzYcH51DJfKdBodw_eCGMU0JO38Q8Lx8Bn-iNFOxmWk8wjNtGR060EOY3seeHrqfZ2SexJj9oFvDbYxZcEp8MS5rMvvHPVA9ntyR9MQDqR_0b7ow1zM7DhQGsUTjCwYYAkvzrBUStHDNgg45N8llghuul53zPedmF8UMCDXVbhA6Yt_ywdU5"/>
+<span class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider flex items-center gap-1 shadow-sm font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Ready Stock
+              </span>
+<button class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/90 backdrop-blur-md text-primary hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Wishlist">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 bg-surface/85 backdrop-blur-md p-2 rounded-lg flex items-center justify-between font-label-sm text-label-sm text-on-surface">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-secondary">straighten</span> D: 60 cm, T: 45 cm</span>
+<span class="text-secondary font-bold">Rotan &amp; Jati</span>
+</div>
+</div>
+<div class="px-space-xs flex flex-col flex-1">
+<div class="flex items-center gap-1 text-secondary mb-1">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold ml-1">4.8</span>
+<span class="font-body-sm text-body-sm text-outline">(84 ulasan)</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-semibold group-hover:text-secondary transition-colors">
+                Meja Kopi Minimalis Rattan
+              </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1 mb-space-sm">
+                Kombinasi hangat rangka kayu mahoni grade A dengan anyaman rotan alami handmade pengrajin Lombok.
+              </p>
+<div class="mt-auto pt-space-xs flex items-baseline gap-2 mb-space-md">
+<span class="font-headline-md text-headline-md font-bold text-primary">Rp 650.000</span>
+<span class="font-body-sm text-body-sm text-outline line-through">Rp 800.000</span>
+<span class="text-label-sm text-label-sm font-bold text-error bg-error-container/60 px-1.5 py-0.5 rounded ml-auto">-18%</span>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-5 gap-2">
+<button class="col-span-3 h-[46px] rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors flex items-center justify-center gap-1.5 shadow-sm active:scale-95">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Keranjang</span>
+</button>
+<a class="col-span-2 h-[46px] rounded-xl bg-surface-container-high text-primary hover:bg-surface-container-highest font-label-md text-label-md font-semibold transition-colors flex items-center justify-center text-center px-1" data-path="paket-furniture-hemat" href="#">
+                  Paket Hemat
+                </a>
+</div>
+</div>
+</article>
+<!-- PRODUCT 3: Lemari Buku 3 Tingkat Teak -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-sm shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A clean Scandinavian mid-century modern 3-tier solid teak open bookshelf shelving system displaying art books and ceramic vases, soft ambient light coming through sheer white curtains in a sunlit interior." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfYNpWle0CZJ-tsjbAGu3IrbumwKWe-n9AKUn324z68sDHog6eVrIXvuKLbgBaR16qagCehTV7M24dSMJVsqjTLi4fCjv0y5T5gEz5qzCGwFVNyn4geFaENtSPi220Bedqh4o5wOYTPKIFsDXYM_oXHDpRQfetyoqhVQ2GlQUO_r9bqirEOrrX-kVBV8s7aUeFPyN12rRxvsxFpLtFB17iNghb0hQCJQUukJHdy2Y4UrLRXzG-vYMX"/>
+<span class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider flex items-center gap-1 shadow-sm font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Ready Stock
+              </span>
+<button class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/90 backdrop-blur-md text-primary hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Wishlist">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 bg-surface/85 backdrop-blur-md p-2 rounded-lg flex items-center justify-between font-label-sm text-label-sm text-on-surface">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-secondary">straighten</span> 90 x 35 x 110 cm</span>
+<span class="text-secondary font-bold">Jati Solid Grade A</span>
+</div>
+</div>
+<div class="px-space-xs flex flex-col flex-1">
+<div class="flex items-center gap-1 text-secondary mb-1">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold ml-1">5.0</span>
+<span class="font-body-sm text-body-sm text-outline">(62 ulasan)</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-semibold group-hover:text-secondary transition-colors">
+                Lemari Buku 3 Tingkat Teak
+              </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1 mb-space-sm">
+                Rak bertingkat kokoh tanpa sekrup terlihat, memakai sambungan adu manis kayu jati solid finishing water-based doff.
+              </p>
+<div class="mt-auto pt-space-xs flex items-baseline gap-2 mb-space-md">
+<span class="font-headline-md text-headline-md font-bold text-primary">Rp 1.250.000</span>
+<span class="font-body-sm text-body-sm text-outline line-through">Rp 1.500.000</span>
+<span class="text-label-sm text-label-sm font-bold text-error bg-error-container/60 px-1.5 py-0.5 rounded ml-auto">-16%</span>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-5 gap-2">
+<button class="col-span-3 h-[46px] rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors flex items-center justify-center gap-1.5 shadow-sm active:scale-95">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Keranjang</span>
+</button>
+<a class="col-span-2 h-[46px] rounded-xl bg-surface-container-high text-primary hover:bg-surface-container-highest font-label-md text-label-md font-semibold transition-colors flex items-center justify-center text-center px-1" data-path="paket-furniture-hemat" href="#">
+                  Paket Hemat
+                </a>
+</div>
+</div>
+</article>
+<!-- PRODUCT 4: Kursi Makan Scandinavia -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-sm shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="An elegant Scandinavian dining chair with curved steam-bent teak backrest and sand-colored woven paper-cord seat, photographed on polished light concrete floor with warm atmospheric morning light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuADg6S9vBP6Tz1Ii_ePXQBCzQxhzJiwhrCip7DBQkyb8Tvlyzehn-3s0W5srbfExi2Bp8mmC26-3MXLAEPuLhRlRKLxdF3UaZALh9UX38WwZF5cwyScA6pqKupQl_sanVBDxnTRKoExn-sXPWjeyyLBCcwer96z-VZt9vL14QHqalxWvnLbNZi-cm1-BwE78nU4aLXH1kFB2wv-KyYIqhqqPMOMz8B_a9ewJX2yuTC4LIa0CLxvfy6z"/>
+<span class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider flex items-center gap-1 shadow-sm font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Ready Stock
+              </span>
+<button class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/90 backdrop-blur-md text-primary hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Wishlist">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 bg-surface/85 backdrop-blur-md p-2 rounded-lg flex items-center justify-between font-label-sm text-label-sm text-on-surface">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-secondary">straighten</span> 52 x 48 x 79 cm</span>
+<span class="text-secondary font-bold">Kayu Sungkai Solid</span>
+</div>
+</div>
+<div class="px-space-xs flex flex-col flex-1">
+<div class="flex items-center gap-1 text-secondary mb-1">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold ml-1">4.9</span>
+<span class="font-body-sm text-body-sm text-outline">(152 ulasan)</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-semibold group-hover:text-secondary transition-colors">
+                Kursi Makan Scandinavia
+              </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1 mb-space-sm">
+                Desain lengkung ramping terinspirasi gaya Nordic, struktur kayu mahoni kokoh menahan beban hingga 130 kg.
+              </p>
+<div class="mt-auto pt-space-xs flex items-baseline gap-2 mb-space-md">
+<span class="font-headline-md text-headline-md font-bold text-primary">Rp 450.000</span>
+<span class="font-body-sm text-body-sm text-outline line-through">Rp 550.000</span>
+<span class="text-label-sm text-label-sm font-bold text-error bg-error-container/60 px-1.5 py-0.5 rounded ml-auto">-18%</span>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-5 gap-2">
+<button class="col-span-3 h-[46px] rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors flex items-center justify-center gap-1.5 shadow-sm active:scale-95">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Keranjang</span>
+</button>
+<a class="col-span-2 h-[46px] rounded-xl bg-surface-container-high text-primary hover:bg-surface-container-highest font-label-md text-label-md font-semibold transition-colors flex items-center justify-center text-center px-1" data-path="paket-furniture-hemat" href="#">
+                  Paket Hemat
+                </a>
+</div>
+</div>
+</article>
+<!-- PRODUCT 5: Meja Kerja Industrial Kayu & Besi -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-sm shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A modern industrial study desk with thick rustic teak wood slab tabletop and matte black steel hairpin legs in a calm stylish home office room with potted plants and warm daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHU-nvGMofkjMDJaek-y68Wr15gpuysduGIaQ0zTpohNXND8PAr_kltoklIUi10CeKVCjko0DQjRHKfGmdHsN87yyOurrEYLkRe8iiJqPKWHsRXnT1W-cbT3AFpTuhPcoW9zxvqUVVj6GVngGstpagm44_yQNqy4Y17BLOiacwzI5QHPy1fecI9_XyfX7YvOQiK3HXgofNhwX_ULDWYBVdlQm1M1lgOmwk3dtCDw779PoLcp1fOui2"/>
+<span class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider flex items-center gap-1 shadow-sm font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Ready Stock
+              </span>
+<button class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/90 backdrop-blur-md text-primary hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Wishlist">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 bg-surface/85 backdrop-blur-md p-2 rounded-lg flex items-center justify-between font-label-sm text-label-sm text-on-surface">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-secondary">straighten</span> 120 x 60 x 75 cm</span>
+<span class="text-secondary font-bold">Jati &amp; Besi Hollow</span>
+</div>
+</div>
+<div class="px-space-xs flex flex-col flex-1">
+<div class="flex items-center gap-1 text-secondary mb-1">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold ml-1">4.8</span>
+<span class="font-body-sm text-body-sm text-outline">(95 ulasan)</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-semibold group-hover:text-secondary transition-colors">
+                Meja Kerja Industrial Kayu &amp; Besi
+              </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1 mb-space-sm">
+                Top table papan utuh kayu jati tebal 3.5cm dengan coating anti gores dan rangka kaki besi powder coating tahan karat.
+              </p>
+<div class="mt-auto pt-space-xs flex items-baseline gap-2 mb-space-md">
+<span class="font-headline-md text-headline-md font-bold text-primary">Rp 1.100.000</span>
+<span class="font-body-sm text-body-sm text-outline line-through">Rp 1.350.000</span>
+<span class="text-label-sm text-label-sm font-bold text-error bg-error-container/60 px-1.5 py-0.5 rounded ml-auto">-19%</span>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-5 gap-2">
+<button class="col-span-3 h-[46px] rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors flex items-center justify-center gap-1.5 shadow-sm active:scale-95">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Keranjang</span>
+</button>
+<a class="col-span-2 h-[46px] rounded-xl bg-surface-container-high text-primary hover:bg-surface-container-highest font-label-md text-label-md font-semibold transition-colors flex items-center justify-center text-center px-1" data-path="paket-furniture-hemat" href="#">
+                  Paket Hemat
+                </a>
+</div>
+</div>
+</article>
+<!-- PRODUCT 6: Credenza Minimalis Modern -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-sm shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container-low mb-space-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A low minimal Japanese-inspired credenza sideboard with sliding slatted wooden tambour doors made of teak, warm earthy decor on top with ceramic vessel and bonsai, warm neutral room." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQhhdexZv3vDg2hEi8rqQDuMRG8WMkPOmL0dtrNOm0puqn9g31qkLpoo09K4lJS_jSd-EwRABCytlfG91BBqZIwG4vv-U9q8f6VUSiZM9DCBXdCgH9Gd4A6uNUZPjIcy0tCNBGLg5iOUaKQIEYPoZnZfiSn2SnCg2WWHJtmTlbuQYNerWQrllhQ7Wfvy53RE_NKq2kbpMyJVNuv3d6nzkN0BRKz47xDkd5ybY3hrmKXXXpvyHnnKKN"/>
+<span class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider flex items-center gap-1 shadow-sm font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Ready Stock
+              </span>
+<button class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface/90 backdrop-blur-md text-primary hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Wishlist">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-3 right-3 bg-surface/85 backdrop-blur-md p-2 rounded-lg flex items-center justify-between font-label-sm text-label-sm text-on-surface">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-secondary">straighten</span> 140 x 40 x 55 cm</span>
+<span class="text-secondary font-bold">Teak Kisi-Kisi Solid</span>
+</div>
+</div>
+<div class="px-space-xs flex flex-col flex-1">
+<div class="flex items-center gap-1 text-secondary mb-1">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold ml-1">5.0</span>
+<span class="font-body-sm text-body-sm text-outline">(47 ulasan)</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-semibold group-hover:text-secondary transition-colors">
+                Credenza Minimalis Japandi
+              </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1 mb-space-sm">
+                Pintu geser kisi-kisi kayu jati dengan engsel soft-close senyap. Cocok untuk konsol TV dan tempat penyimpanan estetik.
+              </p>
+<div class="mt-auto pt-space-xs flex items-baseline gap-2 mb-space-md">
+<span class="font-headline-md text-headline-md font-bold text-primary">Rp 1.450.000</span>
+<span class="font-body-sm text-body-sm text-outline line-through">Rp 1.800.000</span>
+<span class="text-label-sm text-label-sm font-bold text-error bg-error-container/60 px-1.5 py-0.5 rounded ml-auto">-19%</span>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-5 gap-2">
+<button class="col-span-3 h-[46px] rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors flex items-center justify-center gap-1.5 shadow-sm active:scale-95">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Keranjang</span>
+</button>
+<a class="col-span-2 h-[46px] rounded-xl bg-surface-container-high text-primary hover:bg-surface-container-highest font-label-md text-label-md font-semibold transition-colors flex items-center justify-center text-center px-1" data-path="paket-furniture-hemat" href="#">
+                  Paket Hemat
+                </a>
+</div>
+</div>
+</article>
+</div>
+<!-- Pagination Controls -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md bg-surface-container-lowest p-space-md rounded-2xl shadow-sm mt-space-md">
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+            Halaman <span class="font-bold text-primary">1</span> dari 8 halaman
+          </span>
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<button class="px-3 py-2 rounded-xl bg-surface-container-low text-outline cursor-not-allowed flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+<span class="hidden sm:inline">Sebelumnya</span>
+</button>
+<button class="w-10 h-10 rounded-xl bg-primary text-on-primary font-bold shadow-sm">1</button>
+<button class="w-10 h-10 rounded-xl bg-surface-container hover:bg-surface-container-high text-primary font-semibold transition-colors">2</button>
+<button class="w-10 h-10 rounded-xl bg-surface-container hover:bg-surface-container-high text-primary font-semibold transition-colors">3</button>
+<span class="px-2 text-outline">...</span>
+<button class="w-10 h-10 rounded-xl bg-surface-container hover:bg-surface-container-high text-primary font-semibold transition-colors">8</button>
+<button class="px-3.5 py-2 rounded-xl bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-semibold transition-colors flex items-center gap-1">
+<span class="hidden sm:inline">Berikutnya</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</main>
+</div>
+</section>
+<!-- Editorial Section: Custom Furniture Request Callout -->
+<section class="w-full px-margin-desktop py-space-md">
+<div class="max-w-7xl mx-auto bg-surface-container-low rounded-3xl p-space-lg flex flex-col md:flex-row items-center justify-between gap-space-lg relative overflow-hidden shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-16 h-16 rounded-2xl bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[36px]">architecture</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-md text-headline-md text-primary font-bold">Punya Ukuran atau Desain Khusus?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+            Tukang kayu studio kami dapat menyesuaikan dimensi, jenis pelapis minyak jati, dan warna kain sofa sesuai blueprint ruangan rumah Anda.
+          </p>
+</div>
+</div>
+<a class="shrink-0 h-[48px] px-6 rounded-xl bg-primary-container text-on-primary hover:bg-primary font-label-lg text-label-lg font-semibold flex items-center gap-2 shadow-sm transition-all" data-path="ucapan-terima-kasih-&amp;-kontak-toko" href="#">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Konsultasi Ukuran Gratis</span>
+</a>
+</div>
+</section>
+<!-- High-Impact Bottom Promotional Banner (Redirecting to Paket Hemat) -->
+<section class="w-full px-margin-desktop py-space-lg">
+<div class="max-w-7xl mx-auto relative rounded-3xl overflow-hidden bg-primary shadow-xl">
+<!-- Ambient Image Background Layer -->
+<div class="absolute inset-0 bg-cover bg-center opacity-30 mix-blend-luminosity" data-alt="A curated high-end living room set with teak sofa, rattan round table, bookshelf and wooden credenza placed harmoniously in a spacious modern tropical villa with warm evening lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCKf2x83niWmMmWNIJKZPIezlckesDeuLn9UKmxZJO_lLZi00Bybe6vf7gpeuQNvegPmpakbiiZsKZr4pXPijCcTpfpybimBvSNV09BHt3uw_vxpssQFds8_hTO-LBcSXjXaeJMnP8vu6IKeJVvJGsTIKE3q9dsYKxAbCyw1bXqXHkydSv80-1ZiXw9N4s9DEXicKBQ7N0DkhWLphtxSWPM6oZm6LH7xnB7K6E03Dt4mc2DTUyPUeag')"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary via-primary/95 to-primary/80"></div>
+<!-- Banner Content -->
+<div class="relative z-10 p-space-xl lg:p-14 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-xl">
+<div class="flex flex-col max-w-2xl">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm uppercase tracking-wider mb-space-sm w-fit font-bold shadow-sm">
+<span class="material-symbols-outlined text-[16px]">celebration</span> Penawaran Spesial Terbatas
+          </div>
+<h2 class="font-display-lg text-display-lg text-surface tracking-tight leading-tight">
+            Hemat Hingga 35% dengan Paket Furniture Ruang Terpadu
+          </h2>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim mt-space-sm leading-relaxed">
+            Tak perlu bingung mencocokkan serat kayu satu persatu. Dapatkan paket bundling harmonis: Set Ruang Tamu Jati, Set Kamar Tidur Minimalis, dan Set Sudut Kerja Rumah dengan potongan harga istimewa.
+          </p>
+<!-- Value Bullets -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md mt-space-md pt-space-xs text-surface">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">local_shipping</span>
+<span class="font-label-md text-label-md">Gratis Ongkos Kirim</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">handyman</span>
+<span class="font-label-md text-label-md">Bantuan Perakitan Di Tempat</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">shield</span>
+<span class="font-label-md text-label-md">Garansi 3 Tahun Konstruksi</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row lg:flex-col gap-space-sm shrink-0 w-full lg:w-auto">
+<a class="h-14 px-8 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-lg text-label-lg font-bold hover:bg-secondary-container transition-all flex items-center justify-center gap-2 shadow-lg hover:scale-105 active:scale-95" data-path="paket-furniture-hemat" href="#">
+<span>Lihat Paket Furniture Hemat</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<p class="text-center font-label-sm text-label-sm text-primary-fixed-dim">
+            Tersedia kuota 15 paket untuk pemesanan bulan ini
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript for Quick Filter Micro-Interactions -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Toggle Wishlist Heart Micro-Interaction
+      const wishlistBtns = document.querySelectorAll('button[title="Simpan ke Wishlist"]');
+      wishlistBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const icon = btn.querySelector('.material-symbols-outlined');
+          if (icon.style.fontVariationSettings.includes("'FILL' 1")) {
+            icon.style.fontVariationSettings = "'FILL' 0";
+            btn.classList.remove('text-error');
+          } else {
+            icon.style.fontVariationSettings = "'FILL' 1";
+            btn.classList.add('text-error');
+          }
+        });
+      });
+
+      // Quick Notification for Add to Cart
+      const cartButtons = document.querySelectorAll('button:has(.material-symbols-outlined)');
+      cartButtons.forEach(btn => {
+        if (btn.innerText.includes('Keranjang')) {
+          btn.addEventListener('click', () => {
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<span class="material-symbols-outlined text-[18px]">done</span><span>Ditambahkan!</span>';
+            btn.classList.add('bg-secondary');
+            setTimeout(() => {
+              btn.innerHTML = originalText;
+              btn.classList.remove('bg-secondary');
+            }, 1800);
+          });
+        }
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface py-space-xl"><div class="max-w-7xl mx-auto px-margin-desktop flex flex-col gap-space-xl"><div class="grid grid-cols-1 md:grid-cols-4 gap-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-full bg-primary-container text-on-primary flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">carpenter</span></div><span class="font-headline-sm text-headline-sm font-semibold text-primary">KayuKarya</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs leading-relaxed">Kurasi karya mebel kayu jati dan sungkai solid dengan sentuhan minimalis tropis. Menghadirkan kehangatan alam ke setiap ruang hunian Anda.</p></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm font-medium text-primary">Tautan Cepat</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="beranda-&amp;-profil-toko" href="#">Tentang Kami</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="katalog-barang-furniture" href="#">Katalog Seluruh Koleksi</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="paket-furniture-hemat" href="#">Paket Bundling Ruang</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="detail-transaksi-&amp;-checkout" href="#">Syarat &amp; Ketentuan Pemesanan</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm font-medium text-primary">Layanan Pelanggan</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary">chat</span><span>WhatsApp: +62 812-3456-7890</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary">mail</span><span>halo@kayukarya.id</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary">schedule</span><span>Senin - Sabtu: 08.00 - 18.00 WIB</span></div></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm font-medium text-primary">Kanal Sosial</span><p class="font-body-sm text-body-sm text-on-surface-variant">Ikuti cerita pembuatan karya dan portofolio studio kami.</p><div class="flex items-center gap-space-sm"><a class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-secondary hover:bg-primary-container hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">camera</span></a><a class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-secondary hover:bg-primary-container hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">video_library</span></a><a class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-secondary hover:bg-primary-container hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">forum</span></a></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between text-on-surface-variant font-body-sm text-body-sm gap-space-sm"><p>© 2025 KayuKarya Furniture Studio. Seluruh hak cipta dilindungi.</p><p class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Jepara &amp; Bali Craftsmanship</p></div></div></footer></body></html>

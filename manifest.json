@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "id": "00f34dd4a87645908eaf8adfc92ac932",
+    "title": "Halaman 2 - Katalog Barang Furniture (Desktop)",
+    "html_file": "01_Halaman_2_-_Katalog_Barang_Furniture_(Desktop)_00f34dd4.html",
+    "image_file": "01_Halaman_2_-_Katalog_Barang_Furniture_(Desktop)_00f34dd4.png",
+    "meta_file": "01_Halaman_2_-_Katalog_Barang_Furniture_(Desktop)_00f34dd4.json"
+  },
+  {
+    "index": 2,
+    "id": "816fc31329fd46bca0d91cbd68f30c09",
+    "title": "Halaman 3 - Paket Furniture Hemat (Desktop)",
+    "html_file": "02_Halaman_3_-_Paket_Furniture_Hemat_(Desktop)_816fc313.html",
+    "image_file": "02_Halaman_3_-_Paket_Furniture_Hemat_(Desktop)_816fc313.png",
+    "meta_file": "02_Halaman_3_-_Paket_Furniture_Hemat_(Desktop)_816fc313.json"
+  },
+  {
+    "index": 3,
+    "id": "2205417ae4cf42188d54c8eafd6c1b27",
+    "title": "Halaman 1 - Beranda & Profil Toko (Desktop)",
+    "html_file": "03_Halaman_1_-_Beranda_&_Profil_Toko_(Desktop)_2205417a.html",
+    "image_file": "03_Halaman_1_-_Beranda_&_Profil_Toko_(Desktop)_2205417a.png",
+    "meta_file": "03_Halaman_1_-_Beranda_&_Profil_Toko_(Desktop)_2205417a.json"
+  },
+  {
+    "index": 4,
+    "id": "3ff2e96a08c945b49285f02fd36a231b",
+    "title": "Halaman 4 - Detail Transaksi & Checkout (Desktop)",
+    "html_file": "04_Halaman_4_-_Detail_Transaksi_&_Checkout_(Desktop)_3ff2e96a.html",
+    "image_file": "04_Halaman_4_-_Detail_Transaksi_&_Checkout_(Desktop)_3ff2e96a.png",
+    "meta_file": "04_Halaman_4_-_Detail_Transaksi_&_Checkout_(Desktop)_3ff2e96a.json"
+  },
+  {
+    "index": 5,
+    "id": "aeb52784e17747d58b4a9ce8f934470f",
+    "title": "Halaman 5 - Ucapan Terima Kasih & Kontak Toko (Desktop)",
+    "html_file": "05_Halaman_5_-_Ucapan_Terima_Kasih_&_Kontak_Toko_(Desktop)_aeb52784.html",
+    "image_file": "05_Halaman_5_-_Ucapan_Terima_Kasih_&_Kontak_Toko_(Desktop)_aeb52784.png",
+    "meta_file": "05_Halaman_5_-_Ucapan_Terima_Kasih_&_Kontak_Toko_(Desktop)_aeb52784.json"
+  }
+]

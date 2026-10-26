@@ -1,0 +1,96 @@
+/* Custom Enhancements and Animations for KayuKarya Furniture Store */
+
+:root {
+  --primary-color: #311908;
+  --secondary-color: #7a5736;
+  --accent-gold: #c89d76;
+  --surface-warm: #fff8f5;
+  --surface-card: #ffeadc;
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  display: block !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1d5c2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7a5736;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a2e1b;
+}
+
+/* Interactive Card Hover Elevating Effects */
+.furniture-card,
+article,
+div[class*="rounded-xl"] {
+  transition: var(--transition-smooth);
+}
+
+article:hover,
+div[class*="rounded-2xl"]:hover {
+  transform: translateY(-2px);
+}
+
+/* Button Pulse & Focus */
+button, a {
+  transition: var(--transition-smooth);
+}
+
+/* Toast Notification Styling */
+.kayu-toast {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 9999;
+  background: #311908;
+  color: #fff8f5;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: 0 10px 25px -5px rgba(44, 29, 17, 0.3);
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.kayu-toast.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Quantity Counter Animations */
+.cart-badge-bump {
+  animation: badgeBump 0.3s ease-out;
+}
+
+@keyframes badgeBump {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.35); }
+  100% { transform: scale(1); }
+}
+
+/* Image Zoom on Card Hover */
+div[class*="bg-cover"] {
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+div:hover > div[class*="bg-cover"] {
+  transform: scale(1.04);
+}

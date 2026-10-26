@@ -1,0 +1,347 @@
+{
+  "screenshot": {
+    "name": "projects/7605727016345909722/screens/aeb52784e17747d58b4a9ce8f934470f/fileEntries/screenshot",
+    "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WSixJx2Mn7K9BrH5Tmf30I1bNIeOrRaH2aaxo9JPeE_SlsDSjT3qCfPqpPrsbTealsYUEczeZN4kSkrWmS74wTS-thEPZ6wJlqAkzv18cgJRkSegu-M4Vw-z5iZtoOsIwfTxiWxnuYfJXMn52Gy834NTtnLHMBzEi1ReoysDWKFJcqOurDQCTThLT-dijELYK3E2lKNtcUb4g17RelHkQK68TVVI8vRtvn__2nlZqnNRhmGdtN5wZG5g"
+  },
+  "htmlCode": {
+    "name": "projects/7605727016345909722/screens/aeb52784e17747d58b4a9ce8f934470f/fileEntries/html",
+    "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZWI2MTE0YmM2NDAwNTAzYzJkOTFiMDY2ZTliEgsSBxC1zcSt7BIYAZIBIwoKcHJvamVjdF9pZBIVQhM3NjA1NzI3MDE2MzQ1OTA5NzIy&filename=&opi=89354086",
+    "mimeType": "text/html"
+  },
+  "id": "aeb52784e17747d58b4a9ce8f934470f",
+  "generatedBy": "figaro_agent",
+  "width": "2560",
+  "height": "4564",
+  "title": "Halaman 5 - Ucapan Terima Kasih & Kontak Toko (Desktop)",
+  "prompt": "Halaman 5 - Ucapan Terima Kasih & Kontak Toko versi website desktop.\nHalaman sukses transaksi dan apresiasi pelanggan dengan tata letak desktop yang hangat, terpusat, dan rapi.\nHeader status sukses dengan ornamen ikon centang artisan lingkaran coklat kayu dan dedaunan, nomor referensi pesanan terverifikasi #KK-984210, badge status 'Sedang Diproses Pengrajin'.\nJudul besar: 'Terima Kasih Atas Pesanan Anda!'. Deskripsi apresiasi bahwa pesanan furniture telah berhasil dikonfirmasi dan sedang dikerjakan dengan penuh ketelitian oleh tim pengrajin Jepara KayuKarya.\nTampilan 2 kolom terstruktur di desktop:\n- Kolom Kiri: Rincian Pembelian yang selesai (Paket Ruang Tamu Minimalis Rp 1.515.000, estimasi jadwal kirim & instalasi mebel, tips perawatan kayu jati).\n- Kolom Kanan: Card Layanan Pelanggan & Kustomisasi Ukuran dengan info jam operasional studio (Senin - Sabtu: 08.00 - 20.00 WIB), tombol WhatsApp Admin yang besar dan jelas (0812-3456-7890) 'Hubungi Admin via WhatsApp'.\nSection Media Sosial Toko: Tautan resmi Instagram (@kayukarya.furniture), TikTok (@kayukaryaofficial), dan Facebook Official Store.\nTombol aksi bawah: 'Kembali ke Halaman Utama' dan 'Download Invoice PDF'.\nPalet warna serasi coklat kayu jati, walnut, dan cream.",
+  "name": "projects/7605727016345909722/screens/aeb52784e17747d58b4a9ce8f934470f",
+  "theme": {
+    "colorMode": "LIGHT",
+    "font": "LITERATA",
+    "roundness": "ROUND_EIGHT",
+    "customColor": "#4a2e1b",
+    "headlineFont": "LITERATA",
+    "bodyFont": "PLUS_JAKARTA_SANS",
+    "labelFont": "PLUS_JAKARTA_SANS",
+    "namedColors": {
+      "surface_bright": "#fff8f5",
+      "tertiary_fixed_dim": "#f1bb9d",
+      "on_tertiary_fixed_variant": "#633e27",
+      "surface": "#fff8f5",
+      "on_surface": "#27180d",
+      "background": "#fff8f5",
+      "on_secondary_fixed": "#2d1600",
+      "on_tertiary": "#ffffff",
+      "on_tertiary_fixed": "#301403",
+      "on_primary_fixed_variant": "#5f402c",
+      "on_primary_fixed": "#2d1605",
+      "surface_container_highest": "#faddca",
+      "secondary_container": "#fecea4",
+      "on_primary": "#ffffff",
+      "on_error_container": "#93000a",
+      "secondary_fixed": "#ffdcbf",
+      "surface_container": "#ffeadc",
+      "primary": "#311908",
+      "on_secondary": "#ffffff",
+      "surface_variant": "#faddca",
+      "on_secondary_container": "#795635",
+      "inverse_on_surface": "#ffede3",
+      "surface_container_low": "#fff1e9",
+      "tertiary_container": "#4e2c17",
+      "primary_container": "#4a2e1b",
+      "primary_fixed_dim": "#eabda3",
+      "secondary": "#7a5736",
+      "surface_tint": "#795741",
+      "on_error": "#ffffff",
+      "outline_variant": "#d4c3bb",
+      "on_tertiary_container": "#c49277",
+      "error_container": "#ffdad6",
+      "inverse_surface": "#3e2d20",
+      "primary_fixed": "#ffdbc7",
+      "error": "#ba1a1a",
+      "on_background": "#27180d",
+      "surface_container_lowest": "#ffffff",
+      "secondary_fixed_dim": "#ecbe95",
+      "tertiary": "#351705",
+      "on_surface_variant": "#50443e",
+      "tertiary_fixed": "#ffdbc9",
+      "surface_container_high": "#ffe3d0",
+      "outline": "#82746d",
+      "on_primary_container": "#bd957c",
+      "inverse_primary": "#eabda3",
+      "surface_dim": "#f1d5c2",
+      "on_secondary_fixed_variant": "#604020"
+    },
+    "colorVariant": "FIDELITY",
+    "overridePrimaryColor": "#4a2e1b",
+    "overrideSecondaryColor": "#c89d76",
+    "overrideTertiaryColor": "#6e4730",
+    "overrideNeutralColor": "#2c1d11",
+    "spacingScale": 2,
+    "typography": {
+      "headline-lg": {
+        "fontFamily": "Literata",
+        "fontSize": "26px",
+        "fontWeight": "600",
+        "lineHeight": "34px",
+        "letterSpacing": "-0.01em"
+      },
+      "label-md": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "12px",
+        "fontWeight": "600",
+        "lineHeight": "16px",
+        "letterSpacing": "0.03em"
+      },
+      "display-lg-mobile": {
+        "fontFamily": "Literata",
+        "fontSize": "30px",
+        "fontWeight": "600",
+        "lineHeight": "38px",
+        "letterSpacing": "-0.01em"
+      },
+      "body-sm": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "0.01em"
+      },
+      "body-md": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "22px",
+        "letterSpacing": "0em"
+      },
+      "display-lg": {
+        "fontFamily": "Literata",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.02em"
+      },
+      "headline-sm": {
+        "fontFamily": "Literata",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "26px",
+        "letterSpacing": "0em"
+      },
+      "label-sm": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "10px",
+        "fontWeight": "700",
+        "lineHeight": "14px",
+        "letterSpacing": "0.06em"
+      },
+      "headline-md": {
+        "fontFamily": "Literata",
+        "fontSize": "22px",
+        "fontWeight": "500",
+        "lineHeight": "30px",
+        "letterSpacing": "0em"
+      },
+      "label-lg": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "20px",
+        "letterSpacing": "0.02em"
+      },
+      "body-lg": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "letterSpacing": "0em"
+      }
+    },
+    "spacing": {
+      "space-xl": "2.25rem",
+      "gutter": "1rem",
+      "space-lg": "1.5rem",
+      "space-xs": "0.25rem",
+      "space-sm": "0.5rem",
+      "gutter-mobile": "0.75rem",
+      "margin": "1.25rem",
+      "margin-desktop": "2.5rem",
+      "space-md": "1rem"
+    },
+    "headlineFontFamily": "Literata",
+    "bodyFontFamily": "Plus Jakarta Sans",
+    "labelFontFamily": "Plus Jakarta Sans"
+  },
+  "deviceType": "DESKTOP",
+  "screenType": "DESIGN",
+  "screenMetadata": {
+    "agentType": "PRO_AGENT",
+    "status": "COMPLETE"
+  },
+  "designSystem": {
+    "name": "assets/289a0e51569349e2b8a1dce9751fc9e8",
+    "designSystem": {
+      "displayName": "Artisan Teak & Rattan",
+      "styleGuidelines": "## Brand & Style\nThis design system captures the organic warmth, meticulous craft, and architectural serenity of bespoke Indonesian furniture. Drawing inspiration from modern tropical minimalism and traditional woodcraft studios, the aesthetic marries organic tactility with high-end editorial commerce.\n\nThe target audience consists of design-conscious homeowners, interior curators, and hospitality collectors looking for heirloom-grade teak, sungkai, and woven rattan pieces. The UI must evoke a grounded sense of calm, provenance, tactile luxury, and effortless browsing. \n\nKey aesthetic tenets:\n- **Warm Editorial Minimalism:** Airy layouts anchored by rich timber tones and porous, natural stone textures rather than clinical white space.\n- **Architectural Rhythm:** Generous vertical breathing room that mimics wandering through a sunlit Jepara or Bali open-air design studio.\n- **Craftsmanship & Materiality:** Deep wood grains represented through tonal color depths, softened geometry, and tactile interactive feedback.\n\n## Layout & Spacing\nThe layout follows a fluid-flexible column model designed natively for one-handed mobile interactions while cleanly scaling to tablet and desktop screens.\n\n- **Mobile (< 600px)**: 4-column layout with `margin: 1.25rem` and `gutter-mobile: 0.75rem`. Product discovery grids run in 2 columns with staggered aspect ratios to honor handcrafted variation. Sticky bottom action bar for primary purchase mechanics.\n- **Tablet (600px \u2013 1024px)**: 8-column layout with `margin: 2rem` and `gutter: 1rem`. Split-screen PDP (Product Detail Page) with carousel galleries on the left and sticky specification/add-to-bag drawers on the right.\n- **Desktop (> 1024px)**: 12-column layout maxed out at 1280px container width. Margin automatically balances symmetrically (`margin-desktop: 2.5rem`).\n- **Vertical Spacing Rhythm**:\n  - Related product lists and specs stack using `space-md` (16px).\n  - Editorial modular sections (e.g., Artisan Story, Care Guides) separate with `space-xl` (36px).\n\n## Elevation & Depth\nThis design system avoids harsh artificial drop shadows, utilizing multi-layered warm ambient diffusion inspired by soft morning sun through woven blinds.\n\n- **Surface Tonal Layers**:\n  - **Base Canvas**: Linen `#FDFBF7`.\n  - **Layer 1 (Card & Inset background)**: `#F5EFEB`.\n  - **Layer 2 (Floating elements, sheets, pickers)**: Solid pure cream `#FFFFFF` with warm-tinted shadow.\n- **Ambient Shadow Recipe**:\n  - *Subtle Card Rest*: `0 2px 8px -2px rgba(44, 29, 17, 0.05), 0 1px 3px 0 rgba(44, 29, 17, 0.03)`\n  - *Interactive Float / Bottom Sheet*: `0 12px 32px -4px rgba(44, 29, 17, 0.10), 0 4px 12px -2px rgba(44, 29, 17, 0.06)`\n- **Structural Outlines**:\n  - Use 1px borders colored `#EADBC8` on unselected inputs, divider lines, and card containers to provide tactile edge definition without visual noise.\n\n## Components\n\n### Buttons\n- **Primary Button**: Solid aged teak `#4A2E1B` background, ivory `#FDFBF7` typography (`label-lg`), height: 52px for ergonomic thumb reach on mobile screens. Micro-scale press down effect (0.98x) with soft haptic intent.\n- **Secondary Button**: 1.5px border `#6E4730`, transparent background, `#4A2E1B` text.\n- **Floating Cart Button**: Pill-shaped bottom floating element, full width with safe margin padding, pairing total price and 'Tambahkan' (Add to Cart) action.\n\n### Badges & Chips\n- **Status & Material Badges**: Background `#EADBC8` with `#4A2E1B` text in `label-sm` uppercase. Rounded `9999px`.\n- **Filter Chips**: Inactive state has `#F5EFEB` background and `#6E4730` text. Active state adopts deep `#4A2E1B` fill with crisp `#FDFBF7` text.\n\n### Product Cards\n- Warm calico background `#F5EFEB` with a 1px `#EADBC8` hairline border.\n- Image container features 4:5 vertical proportion to highlight tall chairs, armoires, and standing credenzas.\n- Heart wishlist icon anchored top right in a translucent circular glass container (`background: rgba(253, 251, 247, 0.85)`).\n\n### Form Inputs & Selectors\n- Background: `#FFFFFF`. Border: 1px `#EADBC8`. Focus state introduces a 1.5px stroke `#C89D76` with a gentle 3px outer glow `rgba(200, 157, 118, 0.25)`.\n- Label placed outside input in `label-md` with neutral charcoal `#2C1D11`.\n\n### Mobile Navigation & Header\n- **Top Bar**: Minimalist, cream-tinted semi-translucent backdrop blur (`backdrop-filter: blur(12px)`) featuring subtle handcrafted monogram logo, location selector (\"Kirim ke Jakarta\"), and cart counter.\n- **Bottom Navigation**: Ergonomic 4-point navigation (Koleksi, Ruang/Rooms, Wishlist, Profil) with warm teak indicators and custom organic linework icons.",
+      "theme": {
+        "colorMode": "LIGHT",
+        "font": "LITERATA",
+        "roundness": "ROUND_EIGHT",
+        "customColor": "#4a2e1b",
+        "headlineFont": "LITERATA",
+        "bodyFont": "PLUS_JAKARTA_SANS",
+        "labelFont": "PLUS_JAKARTA_SANS",
+        "namedColors": {
+          "surface_container": "#ffeadc",
+          "primary_fixed": "#ffdbc7",
+          "on_background": "#27180d",
+          "tertiary_container": "#4e2c17",
+          "inverse_on_surface": "#ffede3",
+          "inverse_surface": "#3e2d20",
+          "on_primary": "#ffffff",
+          "on_secondary": "#ffffff",
+          "on_tertiary_container": "#c49277",
+          "primary_container": "#4a2e1b",
+          "on_secondary_container": "#795635",
+          "inverse_primary": "#eabda3",
+          "on_error_container": "#93000a",
+          "on_secondary_fixed_variant": "#604020",
+          "on_primary_fixed": "#2d1605",
+          "background": "#fff8f5",
+          "on_surface": "#27180d",
+          "on_tertiary": "#ffffff",
+          "tertiary_fixed": "#ffdbc9",
+          "outline": "#82746d",
+          "on_primary_container": "#bd957c",
+          "outline_variant": "#d4c3bb",
+          "secondary_fixed_dim": "#ecbe95",
+          "error_container": "#ffdad6",
+          "on_secondary_fixed": "#2d1600",
+          "on_tertiary_fixed": "#301403",
+          "on_primary_fixed_variant": "#5f402c",
+          "tertiary_fixed_dim": "#f1bb9d",
+          "secondary_fixed": "#ffdcbf",
+          "secondary_container": "#fecea4",
+          "surface_container_highest": "#faddca",
+          "surface_variant": "#faddca",
+          "surface_container_lowest": "#ffffff",
+          "error": "#ba1a1a",
+          "on_surface_variant": "#50443e",
+          "on_tertiary_fixed_variant": "#633e27",
+          "surface_container_high": "#ffe3d0",
+          "surface_bright": "#fff8f5",
+          "surface": "#fff8f5",
+          "on_error": "#ffffff",
+          "surface_dim": "#f1d5c2",
+          "surface_tint": "#795741",
+          "primary_fixed_dim": "#eabda3",
+          "tertiary": "#351705",
+          "primary": "#311908",
+          "surface_container_low": "#fff1e9",
+          "secondary": "#7a5736"
+        },
+        "designMd": "---\nname: Artisan Teak & Rattan\ncolors:\n  surface: '#fff8f5'\n  surface-dim: '#f1d5c2'\n  surface-bright: '#fff8f5'\n  surface-container-lowest: '#ffffff'\n  surface-container-low: '#fff1e9'\n  surface-container: '#ffeadc'\n  surface-container-high: '#ffe3d0'\n  surface-container-highest: '#faddca'\n  on-surface: '#27180d'\n  on-surface-variant: '#50443e'\n  inverse-surface: '#3e2d20'\n  inverse-on-surface: '#ffede3'\n  outline: '#82746d'\n  outline-variant: '#d4c3bb'\n  surface-tint: '#795741'\n  primary: '#311908'\n  on-primary: '#ffffff'\n  primary-container: '#4a2e1b'\n  on-primary-container: '#bd957c'\n  inverse-primary: '#eabda3'\n  secondary: '#7a5736'\n  on-secondary: '#ffffff'\n  secondary-container: '#fecea4'\n  on-secondary-container: '#795635'\n  tertiary: '#351705'\n  on-tertiary: '#ffffff'\n  tertiary-container: '#4e2c17'\n  on-tertiary-container: '#c49277'\n  error: '#ba1a1a'\n  on-error: '#ffffff'\n  error-container: '#ffdad6'\n  on-error-container: '#93000a'\n  primary-fixed: '#ffdbc7'\n  primary-fixed-dim: '#eabda3'\n  on-primary-fixed: '#2d1605'\n  on-primary-fixed-variant: '#5f402c'\n  secondary-fixed: '#ffdcbf'\n  secondary-fixed-dim: '#ecbe95'\n  on-secondary-fixed: '#2d1600'\n  on-secondary-fixed-variant: '#604020'\n  tertiary-fixed: '#ffdbc9'\n  tertiary-fixed-dim: '#f1bb9d'\n  on-tertiary-fixed: '#301403'\n  on-tertiary-fixed-variant: '#633e27'\n  background: '#fff8f5'\n  on-background: '#27180d'\n  surface-variant: '#faddca'\ntypography:\n  display-lg:\n    fontFamily: Literata\n    fontSize: 40px\n    fontWeight: '600'\n    lineHeight: 48px\n    letterSpacing: -0.02em\n  display-lg-mobile:\n    fontFamily: Literata\n    fontSize: 30px\n    fontWeight: '600'\n    lineHeight: 38px\n    letterSpacing: -0.01em\n  headline-lg:\n    fontFamily: Literata\n    fontSize: 26px\n    fontWeight: '600'\n    lineHeight: 34px\n    letterSpacing: -0.01em\n  headline-md:\n    fontFamily: Literata\n    fontSize: 22px\n    fontWeight: '500'\n    lineHeight: 30px\n    letterSpacing: 0em\n  headline-sm:\n    fontFamily: Literata\n    fontSize: 18px\n    fontWeight: '500'\n    lineHeight: 26px\n    letterSpacing: 0em\n  body-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 16px\n    fontWeight: '400'\n    lineHeight: 26px\n    letterSpacing: 0em\n  body-md:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 14px\n    fontWeight: '400'\n    lineHeight: 22px\n    letterSpacing: 0em\n  body-sm:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 12px\n    fontWeight: '400'\n    lineHeight: 18px\n    letterSpacing: 0.01em\n  label-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 14px\n    fontWeight: '600'\n    lineHeight: 20px\n    letterSpacing: 0.02em\n  label-md:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 12px\n    fontWeight: '600'\n    lineHeight: 16px\n    letterSpacing: 0.03em\n  label-sm:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 10px\n    fontWeight: '700'\n    lineHeight: 14px\n    letterSpacing: 0.06em\nrounded:\n  sm: 0.25rem\n  DEFAULT: 0.5rem\n  md: 0.75rem\n  lg: 1rem\n  xl: 1.5rem\n  full: 9999px\nspacing:\n  gutter: 1rem\n  gutter-mobile: 0.75rem\n  margin: 1.25rem\n  margin-desktop: 2.5rem\n  space-xs: 0.25rem\n  space-sm: 0.5rem\n  space-md: 1rem\n  space-lg: 1.5rem\n  space-xl: 2.25rem\n---\n\n## Brand & Style\nThis design system captures the organic warmth, meticulous craft, and architectural serenity of bespoke Indonesian furniture. Drawing inspiration from modern tropical minimalism and traditional woodcraft studios, the aesthetic marries organic tactility with high-end editorial commerce.\n\nThe target audience consists of design-conscious homeowners, interior curators, and hospitality collectors looking for heirloom-grade teak, sungkai, and woven rattan pieces. The UI must evoke a grounded sense of calm, provenance, tactile luxury, and effortless browsing. \n\nKey aesthetic tenets:\n- **Warm Editorial Minimalism:** Airy layouts anchored by rich timber tones and porous, natural stone textures rather than clinical white space.\n- **Architectural Rhythm:** Generous vertical breathing room that mimics wandering through a sunlit Jepara or Bali open-air design studio.\n- **Craftsmanship & Materiality:** Deep wood grains represented through tonal color depths, softened geometry, and tactile interactive feedback.\n\n## Colors\nThe color palette reflects natural raw materials: aged Javanese teak, raw caramel rattan, untreated linen, and kiln-fired earthenware.\n\n- **Primary (`#4A2E1B`)**: Aged Teak. Used for primary CTAs, active indicators, and high-impact UI elements.\n- **Secondary (`#C89D76`)**: Warm Rattan / Caramel. Used for badges, subtle highlights, active states, key metadata, and secondary accents.\n- **Tertiary (`#6E4730`)**: Sungkai Wood Bark. Adds nuance across hover/focus states, secondary containers, and category filters.\n- **Neutral Dark (`#2C1D11`)**: Charcoal Ebony. Reserved for high-contrast, razor-sharp typography and structural borders.\n- **Background Surfaces**: \n  - Canvas base: Cream Linen (`#FDFBF7`).\n  - Elevated surfaces & cards: Soft Calico (`#F5EFEB`).\n  - Outlines and inset backgrounds: Bleached Husk (`#EADBC8`).\n- **Semantic Accents**:\n  - Success/In-stock: Forest Patina (`#3D5941`)\n  - Warning/Low stock: Spiced Terracotta (`#A6522E`)\n\n## Typography\nThe typographic hierarchy creates a conversation between artisanal literary heritage and contemporary digital clarity.\n\n- **Headline Font (`Literata`)**: A contemporary transitional serif featuring warm humanist calligraphic cuts, organic weight distribution, and comfortable editorial cadence. Used across product titles, curated collections, promotional story headers, and key screen titles.\n- **Body & Label Font (`Plus Jakarta Sans`)**: Designed with Indonesian geometric-humanist roots, this pairing brings supreme screen legibility, open counters, and high performance in compact mobile e-commerce flows (order summaries, spec sheets, dimensions, cart lines).\n- **Styling Rules**:\n  - Keep `label-sm` in uppercase with subtle letter-spacing for material tags (e.g., \"SOLID TEAK\", \"HAND-WOVEN\", \"PRE-ORDER\").\n  - Do not use heavy weights (`> 600`) with serif headlines to prevent visual clutter and maintain an elevated boutique atmosphere.\n\n## Layout & Spacing\nThe layout follows a fluid-flexible column model designed natively for one-handed mobile interactions while cleanly scaling to tablet and desktop screens.\n\n- **Mobile (< 600px)**: 4-column layout with `margin: 1.25rem` and `gutter-mobile: 0.75rem`. Product discovery grids run in 2 columns with staggered aspect ratios to honor handcrafted variation. Sticky bottom action bar for primary purchase mechanics.\n- **Tablet (600px \u2013 1024px)**: 8-column layout with `margin: 2rem` and `gutter: 1rem`. Split-screen PDP (Product Detail Page) with carousel galleries on the left and sticky specification/add-to-bag drawers on the right.\n- **Desktop (> 1024px)**: 12-column layout maxed out at 1280px container width. Margin automatically balances symmetrically (`margin-desktop: 2.5rem`).\n- **Vertical Spacing Rhythm**:\n  - Related product lists and specs stack using `space-md` (16px).\n  - Editorial modular sections (e.g., Artisan Story, Care Guides) separate with `space-xl` (36px).\n\n## Elevation & Depth\nThis design system avoids harsh artificial drop shadows, utilizing multi-layered warm ambient diffusion inspired by soft morning sun through woven blinds.\n\n- **Surface Tonal Layers**:\n  - **Base Canvas**: Linen `#FDFBF7`.\n  - **Layer 1 (Card & Inset background)**: `#F5EFEB`.\n  - **Layer 2 (Floating elements, sheets, pickers)**: Solid pure cream `#FFFFFF` with warm-tinted shadow.\n- **Ambient Shadow Recipe**:\n  - *Subtle Card Rest*: `0 2px 8px -2px rgba(44, 29, 17, 0.05), 0 1px 3px 0 rgba(44, 29, 17, 0.03)`\n  - *Interactive Float / Bottom Sheet*: `0 12px 32px -4px rgba(44, 29, 17, 0.10), 0 4px 12px -2px rgba(44, 29, 17, 0.06)`\n- **Structural Outlines**:\n  - Use 1px borders colored `#EADBC8` on unselected inputs, divider lines, and card containers to provide tactile edge definition without visual noise.\n\n## Shapes\nShapes take cues from finely sanded timber corners and round-reed wicker weaves.\n\n- **Base Radius (`roundedness: 2`)**: Standard components (inputs, interactive chips, product cards, standard buttons) leverage `0.5rem` (8px) for a soft, modern touch that remains structural.\n- **Medium Components (`rounded-lg`)**: Bottom sheets, modal dialogues, floating checkout summaries, and image frames use `1rem` (16px).\n- **Pill Shape Accent**: Badges, search bars, quantity adjusters, and floating contextual tags utilize full pill radii (`9999px`) to contrast against rectangular furniture framing.\n\n## Components\n\n### Buttons\n- **Primary Button**: Solid aged teak `#4A2E1B` background, ivory `#FDFBF7` typography (`label-lg`), height: 52px for ergonomic thumb reach on mobile screens. Micro-scale press down effect (0.98x) with soft haptic intent.\n- **Secondary Button**: 1.5px border `#6E4730`, transparent background, `#4A2E1B` text.\n- **Floating Cart Button**: Pill-shaped bottom floating element, full width with safe margin padding, pairing total price and 'Tambahkan' (Add to Cart) action.\n\n### Badges & Chips\n- **Status & Material Badges**: Background `#EADBC8` with `#4A2E1B` text in `label-sm` uppercase. Rounded `9999px`.\n- **Filter Chips**: Inactive state has `#F5EFEB` background and `#6E4730` text. Active state adopts deep `#4A2E1B` fill with crisp `#FDFBF7` text.\n\n### Product Cards\n- Warm calico background `#F5EFEB` with a 1px `#EADBC8` hairline border.\n- Image container features 4:5 vertical proportion to highlight tall chairs, armoires, and standing credenzas.\n- Heart wishlist icon anchored top right in a translucent circular glass container (`background: rgba(253, 251, 247, 0.85)`).\n\n### Form Inputs & Selectors\n- Background: `#FFFFFF`. Border: 1px `#EADBC8`. Focus state introduces a 1.5px stroke `#C89D76` with a gentle 3px outer glow `rgba(200, 157, 118, 0.25)`.\n- Label placed outside input in `label-md` with neutral charcoal `#2C1D11`.\n\n### Mobile Navigation & Header\n- **Top Bar**: Minimalist, cream-tinted semi-translucent backdrop blur (`backdrop-filter: blur(12px)`) featuring subtle handcrafted monogram logo, location selector (\"Kirim ke Jakarta\"), and cart counter.\n- **Bottom Navigation**: Ergonomic 4-point navigation (Koleksi, Ruang/Rooms, Wishlist, Profil) with warm teak indicators and custom organic linework icons.",
+        "colorVariant": "FIDELITY",
+        "overridePrimaryColor": "#4a2e1b",
+        "overrideSecondaryColor": "#c89d76",
+        "overrideTertiaryColor": "#6e4730",
+        "overrideNeutralColor": "#2c1d11",
+        "spacingScale": 2,
+        "typography": {
+          "label-sm": {
+            "fontFamily": "Plus Jakarta Sans",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "lineHeight": "14px",
+            "letterSpacing": "0.06em"
+          },
+          "display-lg-mobile": {
+            "fontFamily": "Literata",
+            "fontSize": "30px",
+            "fontWeight": "600",
+            "lineHeight": "38px",
+            "letterSpacing": "-0.01em"
+          },
+          "label-lg": {
+            "fontFamily": "Plus Jakarta Sans",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "20px",
+            "letterSpacing": "0.02em"
+          },
+          "headline-sm": {
+            "fontFamily": "Literata",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "26px",
+            "letterSpacing": "0em"
+          },
+          "body-sm": {
+            "fontFamily": "Plus Jakarta Sans",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "0.01em"
+          },
+          "body-md": {
+            "fontFamily": "Plus Jakarta Sans",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "0em"
+          },
+          "headline-md": {
+            "fontFamily": "Literata",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "lineHeight": "30px",
+            "letterSpacing": "0em"
+          },
+          "label-md": {
+            "fontFamily": "Plus Jakarta Sans",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "lineHeight": "16px",
+            "letterSpacing": "0.03em"
+          },
+          "body-lg": {
+            "fontFamily": "Plus Jakarta Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "26px",
+            "letterSpacing": "0em"
+          },
+          "display-lg": {
+            "fontFamily": "Literata",
+            "fontSize": "40px",
+            "fontWeight": "600",
+            "lineHeight": "48px",
+            "letterSpacing": "-0.02em"
+          },
+          "headline-lg": {
+            "fontFamily": "Literata",
+            "fontSize": "26px",
+            "fontWeight": "600",
+            "lineHeight": "34px",
+            "letterSpacing": "-0.01em"
+          }
+        },
+        "spacing": {
+          "space-sm": "0.5rem",
+          "space-xs": "0.25rem",
+          "gutter-mobile": "0.75rem",
+          "gutter": "1rem",
+          "margin-desktop": "2.5rem",
+          "margin": "1.25rem",
+          "space-xl": "2.25rem",
+          "space-lg": "1.5rem",
+          "space-md": "1rem"
+        },
+        "headlineFontFamily": "Literata",
+        "bodyFontFamily": "Plus Jakarta Sans",
+        "labelFontFamily": "Plus Jakarta Sans"
+      }
+    },
+    "version": "1"
+  }
+}
